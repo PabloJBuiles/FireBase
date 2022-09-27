@@ -70,7 +70,7 @@ public class FB_ScoreController : MonoBehaviour
 
     public void GetUsersMaxScore()
     {
-        FirebaseDatabase.DefaultInstance.GetReference("Users").OrderByChild("score").LimitToLast(5).GetValueAsync().ContinueWithOnMainThread(task =>
+        FirebaseDatabase.DefaultInstance.GetReference("Users").OrderByChild("score").LimitToLast(3).GetValueAsync().ContinueWithOnMainThread(task =>
         {
             if (task.IsFaulted)
             {
