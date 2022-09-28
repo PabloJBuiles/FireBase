@@ -102,6 +102,25 @@ public class AuthManager : MonoBehaviour
                     Debug.LogFormat("Usuario Iniciando: {0} ({1})", newUser.DisplayName, newUser.UserId);
                 });
     }
+
+    public void ResetPasword()
+    {
+        string emailAddress = "user@example.com";
+        emailAddress = email.text;
+        if (email.text != null) {
+            FirebaseAuth.DefaultInstance.SendPasswordResetEmailAsync(emailAddress).ContinueWith(task => {
+                if (task.IsCanceled) {
+                    Debug.LogError("SendPasswordResetEmailAsync was canceled.");
+                    return;
+                }
+                if (task.IsFaulted) {
+                    Debug.LogError("SendPasswordResetEmailAsync encountered an error: " + task.Exception);
+                    return;
+                }
+                Debug.Log("Password reset email sent successfully.");
+            });
+        }
+    }
     // Update is called once per frame
     void Update()
     {
