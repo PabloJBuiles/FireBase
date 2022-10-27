@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "863479234569",
-    "firebase_url": "https://flappyappy-76053-default-rtdb.firebaseio.com",
-    "project_id": "flappyappy-76053",
-    "storage_bucket": "flappyappy-76053.appspot.com"
+    "project_number": "729458505119",
+    "firebase_url": "https://flappy-bird-d6dfb-default-rtdb.firebaseio.com",
+    "project_id": "flappy-bird-d6dfb",
+    "storage_bucket": "flappy-bird-d6dfb.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:863479234569:android:269465339cc44ee977b8d8",
+        "mobilesdk_app_id": "1:729458505119:android:eedfb6b2bc375b869d79aa",
         "android_client_info": {
           "package_name": "com.b7.FlappyBird"
         }
       },
       "oauth_client": [
         {
-          "client_id": "863479234569-pkerrhv7bv7c7pnufj2blr9em1tfb4ih.apps.googleusercontent.com",
+          "client_id": "729458505119-1f6db188hko13vg2e7k95e0dub18mh8o.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyA5lNs5onM4lgSMn_MxBW6g0oWJ-JsjxT0"
+          "current_key": "AIzaSyD71y68orRyOM15NXIS9VBla8ppQUggy_k"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "863479234569-pkerrhv7bv7c7pnufj2blr9em1tfb4ih.apps.googleusercontent.com",
+              "client_id": "729458505119-1f6db188hko13vg2e7k95e0dub18mh8o.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
